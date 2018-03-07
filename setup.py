@@ -8,7 +8,7 @@ with codecs.open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'READM
 
 setup(
     name='mozls',
-    version='0.0.2',
+    version='0.0.3',
     description='Wrapper for the Mozilla Location Service API',
     long_description=long_description,
     author='David Bauer',
@@ -16,7 +16,7 @@ setup(
     url='https://www.github.com/blocktrron/mozls',
     license='AGPLv3',
     install_requires=[
-        "click"
+        "click",
         "requests", ],
     packages=find_packages(),
     entry_points={
