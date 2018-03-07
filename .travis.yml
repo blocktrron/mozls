@@ -7,5 +7,5 @@ install:
   - pip install pipenv
   - pipenv install -d
 script:
-  - pipenv run -- py.test pymls/test -s -v
+  - pipenv run -- py.test mozls/test -s -v
 
